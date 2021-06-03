@@ -6,44 +6,41 @@
 //
 
 struct Question {
-    let title: String
+    let text: String
     let type: ResponseType
     let answers: [Answer]
-    
-    static func getQuestion() -> [Question] {
+}
+
+extension Question {
+    static func getQuestions() -> [Question] {
         [
             Question(
-                title: "Стейк",
+                text: "Какую еду вы предпочитаете?",
                 type: .single,
                 answers: [
-                    Answer(title: "", type: .cat),
-                    Answer(title: "", type: .dog)
+                    Answer(text: "Стейк", type: .dog),
+                    Answer(text: "Рыба", type: .cat),
+                    Answer(text: "Морковь", type: .rabbit),
+                    Answer(text: "Кукуруза", type: .turtle)
                 ]),
             Question(
-                title: "Вождение",
+                text: "Что вам нравится больше?",
+                type: .multiple,
+                answers: [
+                    Answer(text: "Плавать", type: .turtle),
+                    Answer(text: "Спать", type: .cat),
+                    Answer(text: "Обниматься", type: .rabbit),
+                    Answer(text: "Есть", type: .dog)
+                ]),
+            Question(
+                text: "Любите ли вы поездки на машине?",
                 type: .ranged,
                 answers: [
-                    Answer(title: "", type: .cat),
-                    Answer(title: "", type: .dog)
+                    Answer(text: "Ненавижу", type: .cat),
+                    Answer(text: "Нервничаю", type: .rabbit),
+                    Answer(text: "Не замечаю", type: .turtle),
+                    Answer(text: "Обожаю", type: .dog)
                 ]),
         ]
     }
-}
-
-enum ResponseType {
-    case single
-    case multiple
-    case ranged
-}
-
-struct Answer {
-    let title: String
-    let type: AnimalType
-}
-
-enum AnimalType: Character {
-    case dog = "🐶"
-    case cat = "🐱"
-    case rabbit = "🐰"
-    case turtle = "🐢"
 }

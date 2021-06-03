@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		4FB235D2266960A900BF09E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB235D1266960A900BF09E3 /* AppDelegate.swift */; };
 		4FB235D4266960A900BF09E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB235D3266960A900BF09E3 /* SceneDelegate.swift */; };
-		4FB235D6266960A900BF09E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB235D5266960A900BF09E3 /* ViewController.swift */; };
 		4FB235D9266960A900BF09E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB235D7266960A900BF09E3 /* Main.storyboard */; };
 		4FB235DB266960AC00BF09E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB235DA266960AC00BF09E3 /* Assets.xcassets */; };
 		4FB235DE266960AC00BF09E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB235DC266960AC00BF09E3 /* LaunchScreen.storyboard */; };
 		4FB235EB26696D0E00BF09E3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB235EA26696D0E00BF09E3 /* Question.swift */; };
+		4FB235EE2669776D00BF09E3 /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB235ED2669776D00BF09E3 /* AnimalType.swift */; };
+		4FB235F0266978D900BF09E3 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB235EF266978D900BF09E3 /* Answer.swift */; };
+		4FB235F226697A7F00BF09E3 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB235F126697A7F00BF09E3 /* ResponseType.swift */; };
+		4FB235F426697B4C00BF09E3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB235F326697B4C00BF09E3 /* HomeViewController.swift */; };
+		4FB235F626697CFF00BF09E3 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB235F526697CFF00BF09E3 /* QuestionsViewController.swift */; };
+		4FB235F826697D1C00BF09E3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB235F726697D1C00BF09E3 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4FB235CE266960A900BF09E3 /* PersonalQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB235D1266960A900BF09E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FB235D3266960A900BF09E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4FB235D5266960A900BF09E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FB235D8266960A900BF09E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FB235DA266960AC00BF09E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FB235DD266960AC00BF09E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FB235DF266960AC00BF09E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FB235EA26696D0E00BF09E3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		4FB235ED2669776D00BF09E3 /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
+		4FB235EF266978D900BF09E3 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		4FB235F126697A7F00BF09E3 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		4FB235F326697B4C00BF09E3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4FB235F526697CFF00BF09E3 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		4FB235F726697D1C00BF09E3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +68,12 @@
 		4FB235D0266960A900BF09E3 /* PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				4FB235E92669612200BF09E3 /* Resources */,
 				4FB235E82669610F00BF09E3 /* ViewControllers */,
 				4FB235E72669610500BF09E3 /* Storyboards */,
 				4FB235E6266960FA00BF09E3 /* Extensions */,
 				4FB235E5266960F200BF09E3 /* Models */,
-				4FB235D1266960A900BF09E3 /* AppDelegate.swift */,
-				4FB235D3266960A900BF09E3 /* SceneDelegate.swift */,
-				4FB235DF266960AC00BF09E3 /* Info.plist */,
+				4FB235E92669612200BF09E3 /* Resources */,
+				4FB235EC266971C300BF09E3 /* Supporting */,
 			);
 			path = PersonalQuiz;
 			sourceTree = "<group>";
@@ -74,6 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				4FB235EA26696D0E00BF09E3 /* Question.swift */,
+				4FB235ED2669776D00BF09E3 /* AnimalType.swift */,
+				4FB235EF266978D900BF09E3 /* Answer.swift */,
+				4FB235F126697A7F00BF09E3 /* ResponseType.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -97,7 +108,9 @@
 		4FB235E82669610F00BF09E3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4FB235D5266960A900BF09E3 /* ViewController.swift */,
+				4FB235F326697B4C00BF09E3 /* HomeViewController.swift */,
+				4FB235F526697CFF00BF09E3 /* QuestionsViewController.swift */,
+				4FB235F726697D1C00BF09E3 /* ResultViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -108,6 +121,16 @@
 				4FB235DA266960AC00BF09E3 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		4FB235EC266971C300BF09E3 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				4FB235D1266960A900BF09E3 /* AppDelegate.swift */,
+				4FB235D3266960A900BF09E3 /* SceneDelegate.swift */,
+				4FB235DF266960AC00BF09E3 /* Info.plist */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,10 +203,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB235D6266960A900BF09E3 /* ViewController.swift in Sources */,
 				4FB235EB26696D0E00BF09E3 /* Question.swift in Sources */,
 				4FB235D2266960A900BF09E3 /* AppDelegate.swift in Sources */,
+				4FB235F626697CFF00BF09E3 /* QuestionsViewController.swift in Sources */,
+				4FB235F826697D1C00BF09E3 /* ResultViewController.swift in Sources */,
+				4FB235F426697B4C00BF09E3 /* HomeViewController.swift in Sources */,
+				4FB235F0266978D900BF09E3 /* Answer.swift in Sources */,
+				4FB235EE2669776D00BF09E3 /* AnimalType.swift in Sources */,
 				4FB235D4266960A900BF09E3 /* SceneDelegate.swift in Sources */,
+				4FB235F226697A7F00BF09E3 /* ResponseType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +360,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3TNS78F69H;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,7 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3TNS78F69H;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
